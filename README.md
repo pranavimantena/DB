@@ -1,5 +1,8 @@
 # DB
 DBMS implementation in c++
+
+#db.h  -> this file has all headers in it
+#db.cpp -> code
 This DBMS will allow the user to type in simple DDL statements and build a system catalog (set of packed descriptors).  Once the table definition is in place, the user can insert, update, delete, and select from a table.  All the commands are passed into the CLP. 
 
 1)  CREATE TABLE table_name (  { column_name <data_type> [NOT NULL] }  )
